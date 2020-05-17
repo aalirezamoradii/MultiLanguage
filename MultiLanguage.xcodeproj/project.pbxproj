@@ -17,6 +17,7 @@
 		F60CD40E246633390065BAB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F60CD410246633390065BAB7 /* Localizable.strings */; };
 		F60CD41B2466373E0065BAB7 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CD41A2466373E0065BAB7 /* Enum.swift */; };
 		F60CD41C246637A60065BAB7 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CD4192466372D0065BAB7 /* LocalizationSystem.swift */; };
+		F667BF3B247108A500285450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F667BF392471085700285450 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -163,6 +164,7 @@
 				F60CD40524662FD00065BAB7 /* LaunchScreen.storyboard in Resources */,
 				F60CD3E72466297B0065BAB7 /* Assets.xcassets in Resources */,
 				F60CD406246631360065BAB7 /* Main.storyboard in Resources */,
+				F667BF3B247108A500285450 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
