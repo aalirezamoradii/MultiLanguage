@@ -15,7 +15,6 @@
 		F60CD40524662FD00065BAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60CD40424662FD00065BAB7 /* LaunchScreen.storyboard */; };
 		F60CD406246631360065BAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60CD408246631360065BAB7 /* Main.storyboard */; };
 		F60CD40E246633390065BAB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F60CD410246633390065BAB7 /* Localizable.strings */; };
-		F60CD415246636A20065BAB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F60CD417246636A20065BAB7 /* InfoPlist.strings */; };
 		F60CD41B2466373E0065BAB7 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CD41A2466373E0065BAB7 /* Enum.swift */; };
 		F60CD41C246637A60065BAB7 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60CD4192466372D0065BAB7 /* LocalizationSystem.swift */; };
 /* End PBXBuildFile section */
@@ -33,10 +32,10 @@
 		F60CD40B2466315D0065BAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F60CD40F246633390065BAB7 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F60CD4112466333D0065BAB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F60CD416246636A20065BAB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F60CD418246636A60065BAB7 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		F60CD4192466372D0065BAB7 /* LocalizationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
 		F60CD41A2466373E0065BAB7 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		F667BF382471085700285450 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F667BF3A2471085B00285450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +84,7 @@
 		F60CD3F324662BE80065BAB7 /* Language */ = {
 			isa = PBXGroup;
 			children = (
-				F60CD417246636A20065BAB7 /* InfoPlist.strings */,
+				F667BF392471085700285450 /* InfoPlist.strings */,
 				F60CD410246633390065BAB7 /* Localizable.strings */,
 			);
 			path = Language;
@@ -164,7 +163,6 @@
 				F60CD40524662FD00065BAB7 /* LaunchScreen.storyboard in Resources */,
 				F60CD3E72466297B0065BAB7 /* Assets.xcassets in Resources */,
 				F60CD406246631360065BAB7 /* Main.storyboard in Resources */,
-				F60CD415246636A20065BAB7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,11 +203,11 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		F60CD417246636A20065BAB7 /* InfoPlist.strings */ = {
+		F667BF392471085700285450 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F60CD416246636A20065BAB7 /* en */,
-				F60CD418246636A60065BAB7 /* fa-IR */,
+				F667BF382471085700285450 /* fa-IR */,
+				F667BF3A2471085B00285450 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
